@@ -5,3 +5,53 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #483D8B;
+    height: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+nav ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 80px;   
+}
+
+nav li{
+    float: left;
+    width: 210px;
+    background-color: #483D8B;
+    text-align: center;
+}
+
+nav li a{
+    display: block;
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 25px 10px;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul ul li{
+    float: none;
+}
+
+nav ul ul li:hover{
+    background-color: #836FFF;
+    
+}
