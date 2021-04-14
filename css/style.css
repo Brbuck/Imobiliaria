@@ -55,3 +55,37 @@ nav ul ul li:hover{
     background-color: #836FFF;
     
 }
+
+.container{
+    background: url('/img/pexels-kelly-lacy-2949992.jpg') no-repeat center center/cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: color;
+}
+
+.container_home{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 30px 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container_home h1{
+    font-size: 2.3rem;
+    color: #fff;
+}
+
+.container_home a{
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: #483D8B;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
