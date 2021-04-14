@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
 *{
     list-style: none;
     text-decoration: none;
@@ -6,20 +8,38 @@
     box-sizing: border-box;
 }
 
+html{
+/* A cada 1 rem será considerado 10px*/
+font-size: 62.5%;
+}
+
+html,
+body {
+height: 100vh;
+font-family: "Source Sans Pro";
+text-rendering: optimizelegibility;
+-webkit-font-smoothing: antialiased;
+}
+
+body{
+font-size: 1.6rem;
+}
+
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 1rem 0 1rem 1rem;
     background-color: #483D8B;
-    height: 80px;
+    height: 8rem;
 }
 
 .logo{
     display: flex;
     align-items: flex-end;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     padding: 10px;
 }
 
@@ -31,14 +51,14 @@ nav ul ul{
 
 nav li{
     float: left;
-    width: 210px;
+    width: 20rem;
     background-color: #483D8B;
     text-align: center;
 }
 
 nav li a{
     display: block;
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: #fff;
     padding: 26px 10px;
 }
@@ -70,13 +90,13 @@ nav ul ul li:hover{
 
 .container_home{
     background-color: rgba(0, 0, 0, .5);
-    padding: 30px 60px;
+    padding: 5rem 9rem;
     border-radius: 10px;
     text-align: center;
 }
 
 .container_home h1{
-    font-size: 2.3rem;
+    font-size: 3.3rem;
     color: #fff;
 }
 
@@ -86,16 +106,28 @@ nav ul ul li:hover{
     background-color: #483D8B;
     border-radius: 12px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin: 10px auto;
+}
+
+.lançamentos{
+    padding: 20px;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
     margin: 10px auto;
 }
 
 .container-cards{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
+    gap: 20px;
     padding: 20px;
+    margin: 0px auto;
 }
 
 .card{
@@ -117,7 +149,7 @@ nav ul ul li:hover{
 }
 
 .preço{
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     font-weight: bold;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -127,12 +159,12 @@ nav ul ul li:hover{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     
 }
 
 .endereço{
-    font-size: 1.3rem;
+    font-size: 2rem;
     margin: 15px 10px ;
 }
