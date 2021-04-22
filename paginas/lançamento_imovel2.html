@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/imovel.css">
+    <title>NewHome</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a class="logo" href="/index.html"><img src="/img/home-smile-regular-36.png" alt="logo">NewHome</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Imovéis</a>
+                    <ul>
+                        <li><a href="#">Alugar</a></li>
+                        <li><a href="#">Comprar</a></li>
+                        <li><a href="#">Lançamentos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Institucional</a>
+                    <ul>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Serviços</a>
+                    <ul>
+                        <li><a href="#">Anuncie seu Imóvel</a></li>
+                        <li><a href="#">Financiamento</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Entrar</a>
+                    <ul>
+                        <li><a href="#">Cadastrar</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slideshow-container">
+        <div class="slide">
+            <div class="numbers">1/3</div>
+            <div><img src="/img/pexels-julia-kuzenkov-1974596.jpg" alt="" class="img_slide"></div>
+        </div>
+        <div class="slide">
+            <div class="numbers">2/3</div>
+            <img src="/img/pexels-terry-magallanes-2635038.jpg" alt="" class="img_slide">
+        </div>
+        <div class="slide">
+            <div class="numbers">3/3</div>
+            <div><img src="/img/pexels-mark-mccammon-1080721.jpg" alt="" class="img_slide"></div>
+        </div>
+         <!-- Next and previous buttons -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="informaçoes-container">
+        <div class="informaçoes">
+            <div class="dados">
+                <h1>Casa - 420m<sup>2</sup> - 5 Quartos</h1>
+                <h2>R$ 900.00</h2>
+                <p>Condomínio R$ 450,00</p>
+            </div>
+            <div class="comodos">
+                <div><img src="/img/ruler-regular-24.png" alt="" >
+                    <p>420m<sup>2</sup></p>
+                </div>
+                <div class="icon-comodo"><img src="/img/bed-regular-24.png" alt="" >
+                    <p>5 quartos</p>
+                </div>
+                <div class="icon-comodo"><img src="/img/car-regular-24.png" alt="">
+                    <p>5 Vagas</p>
+                </div>
+                <div class="icon-comodo"><img src="/img/bath-regular-24.png" alt="" >
+                    <p>5 Banheiros</p>
+                </div>
+            </div>
+            <div class="caracteristicas">
+                <h1>Características</h1>
+                <p>Um projeto de condomínio atemporal onde cada casa aproveita o máximo dos terrenos,
+                alinhando perfeitamente com as residências vizinhas e trazendo um ar de perfeita harmonia.
+                Um condomínio completo, com área de lazer e interiores maravilhosos
+                </p>
+            </div>
+        </div>
+        <div class="form">
+           <form action="" method="post">
+            <h2>Mensagem ao Anunciante</h2>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <div class="nome_telefone">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+                <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+            </div>
+            <textarea name="msm" id="" cols="30" rows="10" ></textarea>
+            <button type="submit">Enviar</button>
+           </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer__content">
+                <h3>Encontre seu Imóvel</h3>
+                <a href="#">Alugar</a>
+                <a href="#">Anuncie seu Imóvel</a>
+                <a href="#">Comprar</a>
+                <a href="#">Lançamentos</a>
+            </div>
+            <div class="footer__content">
+                <h3>Institucional</h3>
+                <a href="#">Contato</a>
+                <a href="#">Sobre nós</a>
+                <a href="#">Trabalhe Conosco</a>
+            </div>
+            <div class="footer__content">
+                <h3>Mais NewHome</h3>
+                <a href="#">Revista</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="footer__content-Social">
+                <h3 >Social</h3>
+                <a href="#"><img src="/img/facebook-circle-logo-36.png" alt=""></a>
+                <a href="#"><img src="/img/twitter-logo-36.png" alt=""></a>
+                <a href="#"><img src="/img/youtube-logo-36.png" alt=""></a>
+                <a href="#"><img src="/img/instagram-alt-logo-36.png" alt=""></a>
+              </div>
+        </div>
+        <p class="footer-line">&#169; 2021 All right reserved</p>    
+    </footer>
+
+    
+</body>
+<script src="/js/main.js"></script>
+</html>
