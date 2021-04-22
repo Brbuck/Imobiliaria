@@ -1,0 +1,101 @@
+
+.container{
+    background: url('/img/pexels-kelly-lacy-2949992.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: color;
+}
+
+.container_home{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 3rem 7rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container_home h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.container_home a{
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #483D8B;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 10px auto;
+}
+
+.lançamentos, .apartamentos, .casas{
+   display: grid;
+   grid-template-columns: minmax(30px, 1fr) 3fr  minmax(30px, 1fr);
+   padding: 40px 0px;
+   grid-template-areas: 
+   't t t'
+   'e c p';
+  
+}
+
+.title{
+    grid-area: t;
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container-cards{
+    grid-area: c;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.card{
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 3px 3px 9px 1px;
+    
+}
+
+.home{
+    width: 250px;
+    height: 200px;
+    
+}
+
+.informaçao{
+    padding: 15px;
+    color: #111;
+}
+
+.preço{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+
+.comodos{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    
+}
+
+.endereço{
+    font-size: 1.6rem;
+    margin: 15px 10px ;
+}
+

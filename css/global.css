@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+/* A cada 1 rem será considerado 10px*/
+font-size: 62.5%;
+}
+
+html,
+body {
+height: 100vh;
+font-family: "Source Sans Pro";
+text-rendering: optimizelegibility;
+-webkit-font-smoothing: antialiased;
+}
+
+body{
+font-size: 1.3rem;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 1rem;
+    background-color: #483D8B;
+    height: 7rem;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+nav ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 70px;   
+    z-index: 10;
+}
+
+nav li{
+    float: left;
+    width: 18rem;
+    background-color: #483D8B;
+    text-align: center;
+}
+
+nav li a{
+    display: block;
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 24px 10px;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul ul li{
+    float: none;
+}
+
+nav ul ul li:hover{
+    background-color: #836FFF;
+    
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    background-color: #483D8B;
+}
+
+.footer__content h3, .footer__content-Social h3{
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+
+/*Footer*/
+
+.footer__content a{
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 10px;
+    margin: 2px 0px;
+}
+
+.footer__content-Social img{
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5rem;
+    margin: 3px;
+}
+
+.footer-line{
+    text-align: center;
+    background-color: #483D8B;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 10px;
+}
