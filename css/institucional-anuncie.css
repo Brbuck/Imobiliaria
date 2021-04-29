@@ -1,0 +1,102 @@
+
+.institucional{
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.sobre h1, .contato h1{
+    font-size: 3rem;
+    margin: 10px 0px;
+}
+
+.sobre p{
+    font-size: 1.8rem;
+}
+
+.contato{
+    margin-top: 100px;
+}
+.contato li{
+    font-size: 1.8rem;
+    margin: 7px 0px;
+}
+
+/*Anuncie*/
+
+.anuncie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 5rem 1rem;
+
+    background: url('../img/pexels-sevenstorm-juhaszimrus-439391.jpg') no-repeat center center/cover;
+    height: 100vh;
+
+    background-color: rgba(4, 0, 238, 0.856);
+    background-blend-mode: color-dodge;
+}
+
+.info{
+    padding: 2rem;
+}
+
+.info h1{
+    font-size: 4rem;
+    margin: 2rem auto;
+    color: #fff;
+}
+
+.info p{
+    font-size: 2.5rem;
+    margin: 1rem auto;
+    color: #fff;
+}
+
+form{
+    width: 100%;
+    max-width: 400px;
+    padding: 4rem 3rem;
+    background-color: #fff;
+}
+
+.form label{
+    display: block;
+    font-size: 2rem;
+    margin-bottom: .2rem;
+    color:#808080;
+}
+
+.form input{
+    width: 100%;
+    padding: 1.6rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.form p{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #808080;
+}
+
+.form strong{
+    color: #483D8B;
+}
+
+.form button{
+    cursor: pointer;
+    width: 100%;
+    padding: 1.6rem;
+    border-radius: 3rem;
+    border: 1px solid gray;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color:#FF4500;;
+}
+

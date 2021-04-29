@@ -1,13 +1,13 @@
 .img_slide {
     width: 100%;
     height: 600px;
-    object-fit: cover;
+    /*object-fit: cover;*/
     object-position: center;
 }
 
 .slideshow-container {
     max-width: 100%;
-    position: relative;
+    /*position: relative;*/
 }
 
 .slide {
@@ -19,7 +19,7 @@
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 45%;
+    top: 50%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -51,7 +51,7 @@
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 0;
+    top: 70px;
 }
 
 .informaçoes-container{

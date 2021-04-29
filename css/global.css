@@ -45,6 +45,15 @@ header{
     padding: 10px;
 }
 
+.toggle{
+    cursor: pointer;
+    font-size: 3rem;
+    padding: 4px 8px;
+    color: #fff;
+
+    display: none;
+}
+
 nav ul ul{
     position: absolute;
     visibility: hidden;
@@ -57,6 +66,10 @@ nav li{
     width: 18rem;
     background-color: #483D8B;
     text-align: center;
+}
+
+.a{
+    cursor: pointer;
 }
 
 nav li a{
@@ -119,4 +132,42 @@ nav ul ul li:hover{
     color: #fff;
     font-size: 1.6rem;
     padding: 10px;
+}
+
+/*Responsividade*/
+
+@media (max-width: 900px){
+    .toggle{
+        display: block;
+    }
+
+    nav{
+       position: absolute;
+       top: 70px;
+       right: 0px;
+       transform: translateX(100%);
+       transition: all 1s;
+    }
+
+    nav.showMenu{
+        transform: translateX(0);
+    }
+
+    nav li{
+        float: none;
+        width: 40rem;
+    }
+
+    nav ul ul{
+        position: static;
+        overflow: hidden;
+        max-height: 0px;
+        transition: all 1s;
+    }
+
+    .showImoveis, .showInstitucional, .showServiços, .showLogin{
+        height: auto;
+        max-height: 300px;
+    }
+
 }
