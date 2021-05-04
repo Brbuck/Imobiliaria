@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+form{
+    width: 100%;
+    max-width: 550px;
+    padding: 20px 70px;
+    margin: 20px auto;
+    
+}
+
+strong{
+    color: #4169E1;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #111;
+    font-size: 1.8rem;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.termo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box{
+    border: 1px solid blue;
+    width: 25px;
+    height: 25px;
+}
+
+.termo  input{
+    width: 23px;
+    height: 23px;
+}
+
+.termo p{
+    font-size: 1.2rem;
+    padding: 0px 7px; 
+    letter-spacing: 1px;
+}
+
+
+.midia{
+    display: flex;
+    flex-direction: column;
+}
+
+.log{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.face{
+    background-color: #4169E1;
+}
+
+.google{
+    background-color: #B22222;
+}
+
+.midia p{
+    font-size: 1.3rem;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.nome, .email, .senha, .telefone{
+    display: block;
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    
+}
+
+.nome input, .email input, .senha input, .telefone input{
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.entre{
+    background-color:  	#FF4500;
+    margin: 15px 0px;
+}
+
+.acesso{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 15px 0px;
+}
+
+.acesso p{
+    margin: 10px 0px;
+}
+
+.acesso a{
+    color: #FF4500;
+    font-weight: bold;
+}
+
+input:focus{
+   border: 1.5px solid #4169E1;
+}
+
+/* Arquivo recuperarSenha*/
+
+.redefinir{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 550px){ 
+    form{
+        padding: 20px 30px;
+    }
+}    
+
+@media (max-width: 440px){ 
+    form{
+        padding: 20px;
+    }
+
+   
+ .termo p,
+    .log, 
+    .midia p, 
+    .nome, 
+    .email, 
+    .senha, 
+    .telefone, 
+    .acesso{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 360px){
+    .termo p,
+    .log, 
+    .midia p, 
+    .nome, 
+    .email, 
+    .senha, 
+    .telefone, 
+    .acesso{
+        font-size: 1rem;
+    }
+}
