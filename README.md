@@ -1,5 +1,7 @@
 # Imobiliaria
 
+## Sobre o Projeto
+
 Projeto Front-end de uma imobiliária simples, com responsividade
 
 ## Tecnologia
@@ -8,7 +10,11 @@ Projeto Front-end de uma imobiliária simples, com responsividade
 * CSS
 * Java Script
 
-
 ## Autor
 
 Bruno, Meu Git <https://github.com/Brbuck>
+
+
+
+
+
